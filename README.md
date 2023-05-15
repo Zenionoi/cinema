@@ -44,9 +44,8 @@ python manage.py migrate
 python manage.py runserver
 ```
 - ##### Run with docker (Docker should be installed)
+
 ```
-docker pull zenionoi/cinema
-docker pull postgres:14-alpine
 docker-compose up
 ```
 
@@ -65,3 +64,7 @@ docker-compose up
 - #### Creating cinema halls
 - #### Adding movie sessions
 - #### Filtering movies and movie sessions
+
+## API Endpoints
+![](endpoint_1.png)
+![](endpoint_2.png)
